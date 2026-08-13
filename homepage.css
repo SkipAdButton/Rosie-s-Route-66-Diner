@@ -1,0 +1,72 @@
+header {
+    background-image: url("assets/image/headerBackgroundImg.png");
+    /* padding-bottom: 135px; */
+    border-bottom: 30px #D20A2E solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dinerName {
+    color: #FDFBD4;
+    font-family: "Elms Sans", sans-serif;
+    font-size: 172px;
+    font-weight: 400;
+    text-shadow: 7px 4px #940721;
+}
+.dinerNameSub {
+    color: #FDFBD4;
+    text-shadow: 3px 2px #940721;
+    font-size: 52px;
+}
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+.headerButton {
+    background-color: transparent;
+    border: 0px solid;
+    font-size: 18px;
+}
+.aboutCard {
+    background-color: white;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10dvh;
+    padding: 2%;
+}
+.descriptionCard {
+    background-color: white;
+    width: 50%;
+    /* margin-left: 20%; */
+    padding: 2%;
+}
+.slogan {
+    font-weight: 600;
+    font-size: 24px;
+}
+.aboutHeader {
+    width: 70%;
+    margin-left: 18%;
+    display: flex;
+    gap: 50px;
+    transform: translateY(80px);
+    font-size: 52px;
+    color: #36454F;
+    text-shadow: 1px 1px 0 black;
+}
+.rosieRiveter {
+    height: auto;
+    width: 12%;
+    outline: 6px #40E0D0 ridge;
+}
+.menuButton {
+    padding: 1dvw;
+    outline: 8px #D20A2E ridge;
+}
+.rosieMenu {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 32px;
+
+}

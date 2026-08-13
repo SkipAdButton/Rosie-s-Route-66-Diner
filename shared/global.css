@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cherryRed {
+    background-color: #D20A2E;
+}
+.cream {
+    background-color: #FDFBD4;
+}
+.creamStripe {
+    background: repeating-linear-gradient(to right, #FDFBD4, #FDFBD4 30px, #e6e4c1 30px, #e6e4c1 60px);
+}
+.turquoise {
+    color: #40E0D0;
+}
+.charcoal {
+    color: #36454F;
+}
+.white {
+    color: #EEEEEE;
+}
+.silver {
+    color: #C0C0C0;
+}
+.hoverUnderline {
+    text-decoration: none;
+}
+.hoverUnderline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.flexColCentered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexRow {
+    display: flex;
+    
+}
+.charBorder {
+    outline: 8px #36454F ridge;
+}
