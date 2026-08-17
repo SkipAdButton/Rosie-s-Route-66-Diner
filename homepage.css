@@ -51,15 +51,18 @@ header {
     margin-left: 18%;
     display: flex;
     gap: 50px;
-    transform: translateY(80px);
+    /* transform: translateY(80px); */
     font-size: 52px;
     color: #36454F;
     text-shadow: 1px 1px 0 black;
+    font-family: "Elms Sans", sans-serif;
 }
 .rosieRiveter {
     height: auto;
     width: 12%;
     outline: 6px #40E0D0 ridge;
+    float: left;
+    margin-right: 13px;
 }
 .menuButton {
     padding: 1dvw;
