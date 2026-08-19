@@ -44,14 +44,16 @@ nav{
  width: 20px;
  height: 20px;
  border-radius: 50%;
- display: flex;
+ display: inherit;
  align-items: center;
  justify-content: center;
  justify-self: end;
  font-size: 12px;
- position: absolute;
- top:8px;
- left: 8px;
+
+}
+#shoppingBtn{
+    display: flex;
+    justify-self: end;
 }
 .cartModal {
     display: none;
@@ -67,18 +69,27 @@ nav{
 
 /* Cart box */
 .cartBox {
+    border-radius: 2px;
     background: white;
     width: 90%;
     max-width: 500px;
     max-height: 90vh;
     overflow-y: auto;
+    border: 1px solid black;
 }
 
 /* Header */
 .cart-header {
+    padding: 20px;
+    background-color: #D20A2E;
+    color: antiquewhite;
     display: flex;
+
     justify-content: space-between;
     align-items: center;
+}
+#closeBtn{
+    
 }
 
 /* Summary */
@@ -90,4 +101,9 @@ nav{
 /* Checkout button */
 .checkoutBtn {
     width: 100%;
+}
+#Filter{
+    width: 300px;
+    height: 100vh;
+    background-color: blanchedalmond;
 }
