@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" href="menu.css">
-    <link rel="stylesheet" href="../shared/global.css">
+    <link rel="stylesheet" href="../../shared/global.css">
     <script src="menu.js" defer></script>
+    <script src="../../shared/global.js" defer></script>
 </head>
-<body id="BodyWody">
+<body  class="themeLight" id="themeDependent" id="BodyWody">
     <nav>
         <div class="buttonContainer">
                 <button class="headerButton">
@@ -18,8 +19,27 @@
                 <button class="headerButton">
                     <a class="headerButton turquoise" href="/">Cart</a>
                 </button>
+            </div>   
+     <button id="shoppingBtn" >🛒<span class="cart-count" id="cartCount">0</span></button>
+     <div class="cartModal" id="cartModal">
+        <div class="cartBox">
+            <div class="cart-header"><h2>Your Order</h2>  <button id="closeBtn">×</button></div>
+            <div id="cartItems">
+                <!-- this is where the items the user add will go -->
             </div>
+            <hr>
+            <div class="cartSummary">
+                <div class="cartSummary-row" >Subtotal <span id="subtotal">$0.00</span></div>
+                <div class="cartSummary-row" >Tax* <span id="tax">$0.00</span ></div>
+                <div class="cartSummary-row" >Total <span id="total">$0.00</span></div>
+            </div>
+
+            <button class="checkoutBtn" id="checkoutBtn">Checkout</button>
+     </div>
+    </div>
+
     </nav>
     <div id="test"></div>
+
 </body>
 </html>

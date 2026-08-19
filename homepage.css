@@ -35,12 +35,15 @@ header {
     margin-left: 15%;
     margin-bottom: 10dvh;
     padding: 2%;
+    line-height: 25px;
 }
 .descriptionCard {
     background-color: white;
     width: 50%;
     /* margin-left: 20%; */
     padding: 2%;
+    line-height: 20px;
+    flex-grow: 1;
 }
 .slogan {
     font-weight: 600;
@@ -54,8 +57,9 @@ header {
     /* transform: translateY(80px); */
     font-size: 52px;
     color: #36454F;
-    text-shadow: 1px 1px 0 black;
+    text-shadow: 3px 3px 0 #C0C0C0;
     font-family: "Elms Sans", sans-serif;
+    
 }
 .rosieRiveter {
     height: auto;
@@ -72,4 +76,44 @@ header {
     font-family: 'Brush Script MT', cursive;
     font-size: 32px;
 
+}
+.descriptionContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+    gap: 5%;
+}
+.menuItemContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10dvh;
+}
+.menuItemDisplay {
+    background-color: white;
+    width: 30%;
+    height: 25dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.menuItemIcon {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-bottom: 4px #36454F ridge;
+}
+.themeContainer {
+    display: flex;
+    transform: translateY(-25px);
+    gap: 2px;
+}
+.footerButton{
+    width: 6%;
+    height: 20px;
+    /* background-color: white; */
+    color: black;
 }

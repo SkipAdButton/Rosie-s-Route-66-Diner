@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="homepage.css" />
         <link rel="stylesheet" href="shared/global.css" />
         <script src="hompage.js" defer></script>
-        <script src="shared/global.js"></script>
+        <script src="shared/global.js" defer></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +16,8 @@
             rel="stylesheet"
         />
     </head>
-    <body class="creamStripe">
+    <div id="Top">
+    <body class="themeLight" id="themeDependent">
         <header>
             <!-- <img src="assets/image/headerImage.jpg" alt="The Diner" class="headerBackgroundImg"> -->
             <div class="buttonContainer">
@@ -43,11 +44,10 @@
             </div>
         </header>
         <body>
-            <input type="checkbox" name="theme" id="themeSwitch" />
+            <div class="themeContainer"><p>Change Theme</p><input type="checkbox" name="theme" id="themeSwitch" /></div>
 
             <div class="aboutContainer">
                 <div class="aboutHeader">
-                
                     <h3>About Rosie</h3>
                 </div>
                 <div class="aboutCard charBorder">
@@ -84,27 +84,49 @@
                     believe in themselves.
                 </div>
             </div>
-            <div style="display: flex; justify-content: space-evenly;">
+            <div class="menuItemContainer">
+                <div class="menuItemDisplay charBorder">
+                    <img src="assets/image/Hamburger.jpg" alt="Classic Burger" class="menuItemIcon">
+                    <h3 class="menuItemTitle">Hamburger</h3>
+                    <h5>$11.99</h5>
+                </div>
+                <div class="menuItemDisplay charBorder">
+                    <img src="assets/image/ClassicBreakfast.jpg" alt="Classic breakfast with toast, hashbrowns, eggs, and bacon" class="menuItemIcon">
+                    <h3 class="menuItemTitle">Classic Breakfast</h3>
+                    <h5>$8.99</h5>
+                </div>
+                <div class="menuItemDisplay charBorder">
+                    <img src="assets/image/ApplePie.jpg" alt="Apple pie" class="menuItemIcon">
+                    <h3 class="menuItemTitle">Apple Pie</h3>
+                    <h5>$5.99</h5>
+                </div>
+            </div>
+            <div class="descriptionContainer">
                 <div class="descriptionCard charBorder">
                     <p>
                         <span class="slogan"
                             >Classic Food. Good Times. Open Road </span
-                        >Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Atque, excepturi sit. Cupiditate voluptatum ea
-                        odio vitae, libero autem. Expedita nihil nesciunt soluta
-                        assumenda pariatur tenetur beatae optio minima facere
-                        ullam?
+                        >Step back in time at Rosie’s Route 66 Diner, where
+                        the spirit of the 1950s comes alive! Enjoy classic
+                        American comfort food surrounded by vintage jukeboxes,
+                        checkered floors, neon lights, chrome accents, and the
+                        timeless charm of Route 66. Whether you’re stopping in
+                        for a juicy burger, a hand-spun milkshake, or a plate of
+                        crispy fries, Rosie’s is the perfect place to grab a
+                        bite, relax, and experience a little taste of classic
+                        Americana.
                     </p>
                 </div>
                 <button class="menuButton">
-                    <a class="rosieMenu hoverUnderline" href="pages/menu/">Rosie's Menu</a>
+                    <a class="rosieMenu hoverUnderline" href="pages/menu/"
+                        >Rosie's Menu</a
+                    >
                 </button>
             </div>
         </body>
         <footer>
-            <p class="footerDetails">copyblah</p>
-            <button class="footerButton">Back To Top</button>
+            <p class="footerDetails">Copyright © 2026 RMK</p>
+            <a href="#Top" class="footerButton">Back To Top</a>
         </footer>
-        <a href="pages/menu/index.html">Test</a>
     </body>
 </html>

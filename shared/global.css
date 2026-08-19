@@ -2,15 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .cherryRed {
     background-color: #D20A2E;
 }
 .cream {
     background-color: #FDFBD4;
-}
-.creamStripe {
-    background: repeating-linear-gradient(to right, #FDFBD4, #FDFBD4 30px, #e6e4c1 30px, #e6e4c1 60px);
 }
 .turquoise {
     color: #40E0D0;
@@ -43,4 +43,17 @@
 }
 .charBorder {
     outline: 8px #36454F ridge;
+}
+footer {
+    padding: 20px;
+    background-color: rgba(125, 125, 125, .5);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.themeLight {
+    background: repeating-linear-gradient(to right, #FDFBD4, #FDFBD4 30px, #e6e4c1 30px, #e6e4c1 60px);
+}
+.themeDark {
+    background: repeating-linear-gradient(to right, #3d3c4d, #3d3c4d 30px, #2c2b36 30px, #2c2b36 60px);
 }
