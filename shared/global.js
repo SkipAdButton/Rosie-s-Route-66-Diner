@@ -1,28 +1,29 @@
 const themeDependent = document.getElementById("themeDependent");
-const themeSwitch = document.getElementById("themeSwitch");
+const themeSwitch = document.getElementById("themeSwitchButton");
 
 themeSwitch.addEventListener("click", () => {
-    if (darkMode) {
-        darkMode = false;
+    if (localStorage.getItem("theme") == "Light") {
+        localStorage.setItem("theme", "Dark");
     } else {
-        darkMode = true;
+        localStorage.setItem("theme", "Light");
     }
     checkTheme();
-})
+});
 
 function checkTheme() {
     let currentTheme = localStorage.getItem("theme");
     // console.log(currentTheme);
 
-    if (currentTheme = "Dark") {
+    if (currentTheme == "Dark") {
         themeDependent.classList.remove("themeLight");
         themeDependent.classList.add("themeDark");
     } else {
         themeDependent.classList.add("themeLight");
         themeDependent.classList.remove("themeDark");
     }
+    themeSwitch.textContent = "Current Theme: " + currentTheme
 }
-
-localStorage.setItem("theme", "Dark");
-
+if (localStorage.getItem("theme") == null) {
+    localStorage.setItem("theme", "Light");
+}
 checkTheme();

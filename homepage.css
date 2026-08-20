@@ -57,13 +57,13 @@ header {
     /* transform: translateY(80px); */
     font-size: 52px;
     color: #36454F;
-    text-shadow: 3px 3px 0 #C0C0C0;
+    text-shadow: 2px 2px #C0C0C0;
     font-family: "Elms Sans", sans-serif;
     
 }
 .rosieRiveter {
     height: auto;
-    width: 12%;
+    width: 18%;
     outline: 6px #40E0D0 ridge;
     float: left;
     margin-right: 13px;
@@ -112,8 +112,51 @@ header {
     gap: 2px;
 }
 .footerButton{
-    width: 6%;
+    /* width: 6%; */
     height: 20px;
     /* background-color: white; */
     color: black;
+}
+.rosie {
+    width: 35%;
+}
+#expandAbout {
+    font-weight: 600;
+}
+#expandAbout:hover {
+    text-decoration: underline solid;
+}
+
+@media (max-width: 850px) {
+    .dinerName {
+        font-size: 100px;
+    }
+    .dinerNameSub {
+        font-size: 24px;
+    }
+    .menuItemContainer {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .menuItemDisplay {
+        width: 100%;
+    }
+    .rosieRiveter {
+        width: 50%;
+    }
+    .descriptionContainer {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .descriptionCard {
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .dinerName {
+        font-size: 60px;
+    }
+    .dinerNameSub {
+        font-size: 12px;
+    }
 }

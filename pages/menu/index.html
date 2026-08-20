@@ -6,10 +6,11 @@
     <title>Menu</title>
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="../../shared/global.css">
-    <script src="menu.js" defer></script>
+
+    
     <script src="../../shared/global.js" defer></script>
 </head>
-<body  class="themeLight" id="themeDependent" id="BodyWody">
+<body  class="themeLight" id="BodyWody">
     <nav>
         <div class="buttonContainer">
                 <button class="headerButton">
@@ -19,10 +20,12 @@
                 <button class="headerButton">
                     <a class="headerButton turquoise" href="/">Cart</a>
                 </button>
-                <button id="shoppingBtn" >🛒<span class="cart-count" id="cartCount">0</span></button>
+                <button id="shoppingBtn" >🛒</button>
+                <span class="cart-count" id="cartCount">0</span>
             </div>   
      
      <div class="cartModal" id="cartModal">
+        
         <div class="cartBox">
             <div class="cart-header"><h2>Your Order</h2>  <button id="closeBtn">×</button></div>
             <div id="cartItems">
@@ -40,9 +43,16 @@
     </div>
 
     </nav>
-    <div id="test"></div>
-    <aside id="Filter">
-        
-    </aside>
+    <div class="ContainerBody">
+        <aside id="Filter">
+            <a onclick="breakfast()" id="Filter-Breakfast"> Breakfast </a>
+            <a onclick="Lunch()" id="Filter-Lunch"> Lunch </a>
+            <a onclick="Dinner()" id="Filter-Dinner"> Dinner </a>
+            <a onclick="Drinks()" id="Filter-Drinks"> Drinks </a>
+            <a onclick="Dessert()" id="Filter-Dessert"> Desserts </a>
+        </aside>
+        <div id="test"></div>
+    </div>
 </body>
+<script src="menu.js"></script>
 </html>

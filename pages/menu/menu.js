@@ -55,7 +55,7 @@ const MenuItems = [
     { 
         id: 12, 
         name: "Cinnamon Rolls", 
-        category: "breakfast-dessert", 
+        category: "dessert", 
         price: 10.99, 
         image: "/assets/image/unnamed.jpg", 
         description: "a sweet, yeast-raised pastry featuring a soft, pillowy dough rolled into a spiral with butter, brown sugar, and ground cinnamon" 
@@ -63,7 +63,7 @@ const MenuItems = [
     { 
         id: 13, 
         name: "Apple pie slice", 
-        category: "breakfast-dessert", 
+        category: "dessert", 
         price: 5.99, 
         image: "/assets/image/ApplePie.jpg", 
         description: "a baked fruit dessert with sliced apples inside a pastry crust. It tastes sweet and warm from spices like cinnamon" 
@@ -160,7 +160,7 @@ const MenuItems = [
     { 
         id: 7, 
         name: "Hot chocolate", 
-        category: "Breakfast-Drink", 
+        category: "Drink", 
         price: 4.99, 
         image: "/assets/image/HotChocolateV2.jpg", 
         description: "a heated drink consisting of shaved or melted chocolate or cocoa powder, and heated milk or water" 
@@ -176,7 +176,7 @@ const MenuItems = [
     { 
         id: 9, 
         name: "Coffee", 
-        category: "Breakfast-Drink", 
+        category: "Drink", 
         price: 10.99, 
         image: "/assets/image/coffee.jpg", 
         description: "Coffee is a dark, bitter, and warm drink made from roasted seeds of a tropical plant" 
@@ -184,7 +184,7 @@ const MenuItems = [
     { 
         id: 10, 
         name: "Tea", 
-        category: "Breakfast-Drink", 
+        category: "Drink", 
         price: 2.45, 
         image: "/assets/image/tea.jpg", 
         description: "Tea is an aromatic hot or cold drink made by soaking cured or fresh leaves of the Camellia sinensis plant in water." 
@@ -192,7 +192,7 @@ const MenuItems = [
     { 
         id: 11, 
         name: "Milk", 
-        category: "Breakfast-Drink", 
+        category: "Drink", 
         price: 50, 
         image: "/assets/image/milk.jpg", 
         description: "Milk is an opaque white or bluish-white liquid food produced by the mammary glands of female mammals." 
@@ -202,7 +202,7 @@ const MenuItems = [
     { 
         id: 19, 
         name: "Coca cola", 
-        category: "Lunch-Drink", 
+        category: "Drink", 
         price: 1.99, 
         image: "/assets/image/cocaCola.jpg", 
         description: "sweet, caramel flavor, bubbly fizz, and dark brown color" 
@@ -220,7 +220,7 @@ const MenuItems = [
     { 
         id: 20, 
         name: "7UP", 
-        category: "Lunch-Drink", 
+        category: "Drink", 
         price: 10.99, 
         image: "/assets/image/7Up.jpg", 
         description: "a clear, non-caffeinated, lemon-lime flavored soft drink created in 1929" 
@@ -228,7 +228,7 @@ const MenuItems = [
     { 
         id: 21, 
         name: "Canadian Ginger Ale", 
-        category: "Lunch-Drink", 
+        category: "Drink", 
         price: 10.99, 
         image: "/assets/image/GingerAle.jpg", 
         description: "a sweet, fizzy, carbonated soft drink with a mild, crisp ginger flavor. It features bright bubbly carbonation, a light sugary sweetness, and subtle hints of citrus or caramel, offering a refreshing and smooth taste with very little of the sharp spice" 
@@ -236,7 +236,7 @@ const MenuItems = [
     { 
         id: 22, 
         name: "Pepsi", 
-        category: "Lunch-Drink", 
+        category: "Drink", 
         price: 10.99, 
         image: "/assets/image/Pepsi.jpg", 
         description: "a bold, sweet, and fizzy cola. It blends caramel and vanilla with a bright citrus kick from added citric acid" 
@@ -246,7 +246,7 @@ const MenuItems = [
     { 
         id: 30, 
         name: "Kool Aid", 
-        category: "Dinner-Drink", 
+        category: "Drink", 
         price: 50.99, 
         image: "/assets/image/Koolaid.jpg", 
         description: "a popular American brand of flavored drink mix owned by Kraft Heinz. It is sold as a colorful powder in small paper packets or tubs. You make the sweet beverage by mixing the powder with water and sugar" 
@@ -254,7 +254,7 @@ const MenuItems = [
     { 
         id: 31, 
         name: "Shirley Temple", 
-        category: "Dinner-Drink", 
+        category: "Drink", 
         price: 10.99, 
         image: "/assets/image/SherlyTemple.jpg", 
         description: "a sweet, fizzy, non-alcoholic mixed drink made with ginger ale (or lemon-lime soda), a splash of bright red grenadine syrup, and ice." 
@@ -262,7 +262,7 @@ const MenuItems = [
     { 
         id: 32, 
         name: "Iced Tea", 
-        category: "Dinner-Drink", 
+        category: "Drink", 
         price: 10.99, 
         image: "/assets/image/IcedTea.jpg", 
         description: "a cold beverage made by brewing tea leaves with hot water and chilling the liquid by pouring it over ice." 
@@ -272,7 +272,7 @@ const MenuItems = [
     { 
         id: 23, 
         name: "MilkShake", 
-        category: "Lunch-dessert", 
+        category: "dessert", 
         price: 10.99, 
         image: "/assets/image/MilkShake.jpg", 
         description: "a cold, sweet drink made by blending milk, ice cream, and flavor syrups like chocolate, vanilla, or strawberry. It has a thick, creamy, and frothy texture" 
@@ -280,7 +280,7 @@ const MenuItems = [
     { 
         id: 24, 
         name: "Apple pie slice", 
-        category: "breakfast-dessert", 
+        category: "dessert", 
         price: 5.99, 
         image: "/assets/image/ApplePie.jpg", 
         description: "a baked fruit dessert with sliced apples inside a pastry crust. It tastes sweet and warm from spices like cinnamon" 
@@ -290,7 +290,7 @@ const MenuItems = [
     { 
         id: 33, 
         name: "Rootbeer-float", 
-        category: "Dinner-Dessert", 
+        category: "Dessert", 
         price: 10.99, 
         image: "/assets/image/Rootbeer-Float.jpg", 
         description: "a sweet, fizzy dessert drink made by pouring chilled root beer over scoops of vanilla ice cream" 
@@ -298,7 +298,7 @@ const MenuItems = [
     { 
         id: 34, 
         name: "ice cream", 
-        category: "Dinner-Dessert", 
+        category: "Dessert", 
         price: 10.99, 
         image: "/assets/image/unnamed.jpg", 
         description: "a sweet, frozen food made from milk, cream, sugar, and flavors." 
@@ -306,7 +306,7 @@ const MenuItems = [
     { 
         id: 35, 
         name: "milkshake", 
-        category: "Dinner-Dessert", 
+        category: "Dessert", 
         price: 10.99, 
         image: "/assets/image/MilkShake.jpg", 
         description: "a cold, sweet drink made by blending milk, ice cream, and flavor syrups like chocolate, vanilla, or strawberry. It has a thick, creamy, and frothy texture" 
@@ -346,38 +346,198 @@ closeBtn.addEventListener("click", () => {
 function displayProducts() { 
     console.log("Displaying products:", MenuItems.length, "items"); 
     
-    const test = document.getElementById("test"); 
+    let test = document.getElementById("test"); 
     let html = ""; 
  
-    for (let i = 0; i < MenuItems.length; i++) { 
-        html += ` 
-            <div class="product-card"> 
-                <img src="${MenuItems[i].image}" alt="${MenuItems[i].name}" class="ImgSmall"> 
+//     for (let i = 0; i < MenuItems.length; i++) { 
+//         html += ` 
+//             <div class="product-card"> 
+//                 <img src="${MenuItems[i].image}" alt="${MenuItems[i].name}" class="ImgSmall"> 
                 
-                <div class="product-name">${MenuItems[i].name}</div> 
+//                 <div class="product-name">${MenuItems[i].name}</div> 
                 
-                <p>${MenuItems[i].category}</p> 
+//                 <p>${MenuItems[i].category}</p> 
                 
-                <div class="product-description">
-                    ${MenuItems[i].description}
-                </div> 
+//                 <div class="product-description">
+//                     ${MenuItems[i].description}
+//                 </div> 
  
-                <div class="product-footer"> 
-                    <div class="product-price"> 
-                        $${MenuItems[i].price.toFixed(2)} 
-                    </div> 
+//                 <div class="product-footer"> 
+//                     <div class="product-price"> 
+//                         $${MenuItems[i].price.toFixed(2)} 
+//                     </div> 
  
-                    <button class="add-btn" onclick="addToCart(${MenuItems[i].id})"> 
-                        ADD TO CART 
-                    </button> 
-                </div> 
-            </div> 
-        `; 
-    } 
- 
-    test.innerHTML = html; 
-} 
+//                     <button class="add-btn" onclick="addToCart(${MenuItems[i].id})"> 
+//                         ADD TO CART 
+//                     </button> 
+//                 </div> 
+//             </div> 
+//         `; 
+//     } 
+};
+//     test.innerHTML = html; 
+function breakfast(){
+    // console.log("Breakfast function was called");
 
+    let test = document.getElementById("test"); 
+    let html = ""; 
+
+    for(let i = 0; i < MenuItems.length; i++){
+        if (MenuItems[i].category == "breakfast") {
+            test.innerHTML += ` 
+                <div class="product-card"> 
+                    <img src="${MenuItems[i].image}" alt="${MenuItems[i].name}" class="ImgSmall"> 
+                    
+                    <div class="product-name">${MenuItems[i].name}</div> 
+                    
+                    <p>${MenuItems[i].category}</p> 
+                    
+                    <div class="product-description">
+                        ${MenuItems[i].description}
+                    </div> 
+    
+                    <div class="product-footer"> 
+                        <div class="product-price"> 
+                            $${MenuItems[i].price.toFixed(2)} 
+                        </div> 
+    
+                        <button class="add-btn" onclick="addToCart(${MenuItems[i].id})"> 
+                            ADD TO CART 
+                        </button> 
+                    </div> 
+                </div> 
+        `};
+    };
+};
+function Lunch(){
+
+    let test = document.getElementById("test"); 
+    let html = ""; 
+
+    for(let i = 0; i < MenuItems.length; i++){
+        if (MenuItems[i].category == "Lunch") {
+            test.innerHTML += ` 
+                <div class="product-card"> 
+                    <img src="${MenuItems[i].image}" alt="${MenuItems[i].name}" class="ImgSmall"> 
+                    
+                    <div class="product-name">${MenuItems[i].name}</div> 
+                    
+                    <p>${MenuItems[i].category}</p> 
+                    
+                    <div class="product-description">
+                        ${MenuItems[i].description}
+                    </div> 
+    
+                    <div class="product-footer"> 
+                        <div class="product-price"> 
+                            $${MenuItems[i].price.toFixed(2)} 
+                        </div> 
+    
+                        <button class="add-btn" onclick="addToCart(${MenuItems[i].id})"> 
+                            ADD TO CART 
+                        </button> 
+                    </div> 
+                </div> 
+        `};
+    };
+};
+function Dinner(){
+
+    let test = document.getElementById("test"); 
+    let html = ""; 
+
+    for(let i = 0; i < MenuItems.length; i++){
+        if (MenuItems[i].category == "Dinner") {
+            test.innerHTML += ` 
+                <div class="product-card"> 
+                    <img src="${MenuItems[i].image}" alt="${MenuItems[i].name}" class="ImgSmall"> 
+                    
+                    <div class="product-name">${MenuItems[i].name}</div> 
+                    
+                    <p>${MenuItems[i].category}</p> 
+                    
+                    <div class="product-description">
+                        ${MenuItems[i].description}
+                    </div> 
+    
+                    <div class="product-footer"> 
+                        <div class="product-price"> 
+                            $${MenuItems[i].price.toFixed(2)} 
+                        </div> 
+    
+                        <button class="add-btn" onclick="addToCart(${MenuItems[i].id})"> 
+                            ADD TO CART 
+                        </button> 
+                    </div> 
+                </div> 
+        `};
+    };
+};
+
+function Drinks(){
+
+    let test = document.getElementById("test"); 
+    let html = ""; 
+
+    for(let i = 0; i < MenuItems.length; i++){
+        if (MenuItems[i].category == "Drinks") {
+            test.innerHTML += ` 
+                <div class="product-card"> 
+                    <img src="${MenuItems[i].image}" alt="${MenuItems[i].name}" class="ImgSmall"> 
+                    
+                    <div class="product-name">${MenuItems[i].name}</div> 
+                    
+                    <p>${MenuItems[i].category}</p> 
+                    
+                    <div class="product-description">
+                        ${MenuItems[i].description}
+                    </div> 
+    
+                    <div class="product-footer"> 
+                        <div class="product-price"> 
+                            $${MenuItems[i].price.toFixed(2)} 
+                        </div> 
+    
+                        <button class="add-btn" onclick="addToCart(${MenuItems[i].id})"> 
+                            ADD TO CART 
+                        </button> 
+                    </div> 
+                </div> 
+        `};
+    };
+};
+function Dessert(){
+
+    let test = document.getElementById("test"); 
+    let html = ""; 
+
+    for(let i = 0; i < MenuItems.length; i++){
+        if (MenuItems[i].category == "Dessert") {
+            test.innerHTML += ` 
+                <div class="product-card"> 
+                    <img src="${MenuItems[i].image}" alt="${MenuItems[i].name}" class="ImgSmall"> 
+                    
+                    <div class="product-name">${MenuItems[i].name}</div> 
+                    
+                    <p>${MenuItems[i].category}</p> 
+                    
+                    <div class="product-description">
+                        ${MenuItems[i].description}
+                    </div> 
+    
+                    <div class="product-footer"> 
+                        <div class="product-price"> 
+                            $${MenuItems[i].price.toFixed(2)} 
+                        </div> 
+    
+                        <button class="add-btn" onclick="addToCart(${MenuItems[i].id})"> 
+                            ADD TO CART 
+                        </button> 
+                    </div> 
+                </div> 
+        `};
+    };
+};
 
 //id is grabbed by the btn shown above 
 function addToCart(id) { 
@@ -385,7 +545,7 @@ function addToCart(id) {
  
     //using find is way easier then looping and creating my own find system 
     //.find will look throught first related item and convert it to the actual id 
-    const item = MenuItems.find(function (x) { 
+    let item = MenuItems.find(function (x) { 
         //search my item through menu 
         return x.id === id; 
     }); 
@@ -396,7 +556,7 @@ function addToCart(id) {
         return;
     }
  
-    const foundItem = cart.find(function (x) { 
+    let foundItem = cart.find(function (x) { 
         //searches my cart  
         return x.id === id; 
     }); 
@@ -423,7 +583,7 @@ function increaseQty(id) {
     console.log("increase id called"); 
     
     //since im using find seperate for each function i called them so js know what to increase/decrease 
-    const item = cart.find(function (item) { 
+    let item = cart.find(function (item) { 
         return item.id === id; 
     }); 
  
@@ -439,7 +599,7 @@ function increaseQty(id) {
 function decreaseQty(id) { 
     console.log("decreaseQty"); 
  
-    const item = cart.find(function (item) { 
+    let item = cart.find(function (item) { 
         return item.id === id; 
     }); 
  
@@ -484,25 +644,23 @@ function displayCart() {
     } 
  
     cart.forEach(function (item) { 
-        const div = document.createElement("div"); 
+        let div = document.createElement("div"); 
  
         div.innerHTML = ` 
-            <div> 
-                <strong>${item.name}</strong> 
-                <span>$${item.price.toFixed(2)}</span> 
-            </div> 
-            
-            <button onclick="decreaseQty(${item.id})">-</button> 
-            <span>${item.quantity}</span> 
-            <button onclick="increaseQty(${item.id})">+</button> 
- 
-            <button onclick="removeItem(${item.id})">🗑</button> 
-            
-            <div> 
-                $${(item.price * item.quantity).toFixed(2)} 
-            </div> 
+            <div class="topHeader">
+                <strong>${item.name}</strong>
+                <span>$${item.price.toFixed(2)}</span>
+            </div>
+            <button onclick="decreaseQty(${item.id})">-</button>
+            <span>${item.quantity}</span>
+            <button onclick="increaseQty(${item.id})">+</button>
+
+            <button onclick="removeItem(${item.id})">Remove 🗑</button>
+            <div>
+                $${(item.price * item.quantity).toFixed(2)}
+            </div>
         `; 
- 
+        
         cartItemsDiv.appendChild(div); 
     }); 
  
@@ -523,8 +681,8 @@ function updateCart() {
         subtotal += item.price * item.quantity; 
     }); 
  
-    const tax = subtotal * taxRate; 
-    const total = subtotal + tax; 
+    let tax = subtotal * taxRate; 
+    let total = subtotal + tax; 
  
     console.log(
         "Cart totals: " + count + " subtotal:" + subtotal.toFixed(2) + " tax:" +  tax.toFixed(2) + " total:" +total.toFixed(2)); 
@@ -551,3 +709,10 @@ checkoutBtn.addEventListener("click", function () {
 //display all products when the page loads
 displayProducts();
 displayCart();
+
+//Filter For menu Items
+
+// const brFt = document.getElementById("Filter-Breakfast");
+// if (FilterBreakfast.checked){
+//     const BreakfastItems = MenuItems.filter(${category=})
+// }
