@@ -27,6 +27,8 @@ nav{
     background-color: #D20A2E;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 40px;
     /* flex-direction: row-reverse; */
 }
 .ImgSmall{
@@ -36,7 +38,6 @@ nav{
 
 
 
-/* CHECKOUT WILL EDIT SOON */
  /* Cart modal */
  
 .cartModal {
@@ -64,7 +65,6 @@ nav{
     right: 10px;
 
 }
-
 
 #shoppingBtn {
     display: flex;
@@ -217,13 +217,14 @@ nav{
 }
 
 #Filter{
-    width: 900px;
-    height: auto;
+    width: 100px;
+    height: 100vh;
     background-color: blanchedalmond;
     display: flex;
     flex-direction: column;
 }
 .ContainerBody{
     display: flex;
+    flex-direction: column;
     /* gap: 10px; */
 }

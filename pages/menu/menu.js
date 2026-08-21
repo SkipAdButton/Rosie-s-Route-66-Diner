@@ -381,7 +381,7 @@ function breakfast(){
 
     let test = document.getElementById("test"); 
     let html = ""; 
-
+    test.innerHTML = ``
     for(let i = 0; i < MenuItems.length; i++){
         if (MenuItems[i].category == "breakfast") {
             test.innerHTML += ` 
@@ -413,7 +413,7 @@ function Lunch(){
 
     let test = document.getElementById("test"); 
     let html = ""; 
-
+    test.innerHTML = ``
     for(let i = 0; i < MenuItems.length; i++){
         if (MenuItems[i].category == "Lunch") {
             test.innerHTML += ` 
@@ -445,7 +445,7 @@ function Dinner(){
 
     let test = document.getElementById("test"); 
     let html = ""; 
-
+    test.innerHTML = ``
     for(let i = 0; i < MenuItems.length; i++){
         if (MenuItems[i].category == "Dinner") {
             test.innerHTML += ` 
@@ -478,7 +478,7 @@ function Drinks(){
 
     let test = document.getElementById("test"); 
     let html = ""; 
-
+    test.innerHTML = ``
     for(let i = 0; i < MenuItems.length; i++){
         if (MenuItems[i].category == "Drinks") {
             test.innerHTML += ` 
@@ -510,7 +510,7 @@ function Dessert(){
 
     let test = document.getElementById("test"); 
     let html = ""; 
-
+    test.innerHTML = ``
     for(let i = 0; i < MenuItems.length; i++){
         if (MenuItems[i].category == "Dessert") {
             test.innerHTML += ` 

@@ -54,10 +54,7 @@ header {
     margin-left: 18%;
     display: flex;
     gap: 50px;
-    /* transform: translateY(80px); */
     font-size: 52px;
-    color: #36454F;
-    text-shadow: 2px 2px #C0C0C0;
     font-family: "Elms Sans", sans-serif;
     
 }
@@ -126,6 +123,7 @@ header {
 #expandAbout:hover {
     text-decoration: underline solid;
 }
+
 
 @media (max-width: 850px) {
     .dinerName {

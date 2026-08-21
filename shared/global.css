@@ -57,6 +57,14 @@ footer {
 .themeDark {
     background: repeating-linear-gradient(to right, #3d3c4d, #3d3c4d 30px, #2c2b36 30px, #2c2b36 60px);
 }
+.themeLightText {
+    color: #36454F;
+    text-shadow: 1px 1px #232d34;
+}
+.themeDarkText {
+    color: #e1e0c1;
+    text-shadow: 1px 1px #b6b497;
+}
 #themeSwitchButton {
     color: rgb(50, 0, 0);
     font-weight: 600;
