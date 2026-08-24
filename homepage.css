@@ -36,6 +36,7 @@ header {
     margin-bottom: 10dvh;
     padding: 2%;
     line-height: 25px;
+    display: flow-root;
 }
 .descriptionCard {
     background-color: white;
@@ -123,7 +124,6 @@ header {
 #expandAbout:hover {
     text-decoration: underline solid;
 }
-
 
 @media (max-width: 850px) {
     .dinerName {

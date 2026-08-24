@@ -480,7 +480,7 @@ function Drinks(){
     let html = ""; 
     test.innerHTML = ``
     for(let i = 0; i < MenuItems.length; i++){
-        if (MenuItems[i].category == "Drinks") {
+        if (MenuItems[i].category == "Drink") {
             test.innerHTML += ` 
                 <div class="product-card"> 
                     <img src="${MenuItems[i].image}" alt="${MenuItems[i].name}" class="ImgSmall"> 
@@ -590,10 +590,10 @@ function increaseQty(id) {
     if (item) { 
         item.quantity++; 
         console.log("Quantity increase"); 
-    } 
+    };
  
     displayCart(); 
-} 
+};
 
 
 function decreaseQty(id) { 
@@ -612,11 +612,11 @@ function decreaseQty(id) {
             console.log("Quantity at 0 remove"); 
             removeItem(id); 
             return; 
-        } 
-    } 
+        }; 
+    };
  
     displayCart(); 
-} 
+};
 
 
 //all id is called by my displayItem function's cards 
@@ -631,7 +631,7 @@ function removeItem(id) {
  
     console.log("Cart after removed"); 
     displayCart(); 
-} 
+};
 
 
 function displayCart() { 
@@ -641,7 +641,7 @@ function displayCart() {
         cartItemsDiv.innerHTML = "<p>Your cart is empty</p>"; 
         updateCart(); 
         return; 
-    } 
+    };
  
     cart.forEach(function (item) { 
         let div = document.createElement("div"); 

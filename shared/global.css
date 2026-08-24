@@ -77,3 +77,6 @@ footer {
 #themeSwitchButton:hover {
     text-decoration: underline solid;
 }
+.darkBackground {
+    background-color: #d1cfc9;
+}
