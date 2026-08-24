@@ -351,7 +351,7 @@ nav{
 
 .cartSummary {
     padding: 20px;
-    background: #FFFFFF;
+    background: #1d1d1d9e;
     color: #252525;
     border-top: 1px solid #D8D8D8;
 }
@@ -362,7 +362,6 @@ nav{
     justify-content: space-between;
     padding: 7px 0;
     color: #252525;
-    background-color: #1212127a;
 }
 
 
@@ -378,7 +377,7 @@ nav{
 
 .cartBox hr {
     border: none;
-    border-top: 1px solid #D8D8D8;
+    border-top: 1px solid #401a1a;
     margin: 0;
 }
 
