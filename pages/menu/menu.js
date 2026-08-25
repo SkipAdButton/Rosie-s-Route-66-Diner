@@ -343,37 +343,37 @@ closeBtn.addEventListener("click", () => {
 }); 
 
 
-function displayProducts() { 
-    console.log("Displaying products:", MenuItems.length, "items"); 
+function ALLOptions() { 
+    console.log("Displaying products:", MenuItems.length, "test"); 
     
     let test = document.getElementById("test"); 
     let html = ""; 
- 
-//     for (let i = 0; i < MenuItems.length; i++) { 
-//         html += ` 
-//             <div class="product-card"> 
-//                 <img src="${MenuItems[i].image}" alt="${MenuItems[i].name}" class="ImgSmall"> 
-                
-//                 <div class="product-name">${MenuItems[i].name}</div> 
-                
-//                 <p>${MenuItems[i].category}</p> 
-                
-//                 <div class="product-description">
-//                     ${MenuItems[i].description}
-//                 </div> 
- 
-//                 <div class="product-footer"> 
-//                     <div class="product-price"> 
-//                         $${MenuItems[i].price.toFixed(2)} 
-//                     </div> 
- 
-//                     <button class="add-btn" onclick="addToCart(${MenuItems[i].id})"> 
-//                         ADD TO CART 
-//                     </button> 
-//                 </div> 
-//             </div> 
-//         `; 
-//     } 
+    for(let i = 0; i < MenuItems.length; i++){ 
+            //  if (MenuItems[i].id >= 0){
+                  test.innerHTML += ` 
+                    <div class="product-card"> 
+                     <img src="${MenuItems[i].image}" alt="${MenuItems[i].name}" class="ImgSmall"> 
+                        
+                        <div class="product-name">${MenuItems[i].name}</div> 
+                        <p>${MenuItems[i].category}</p> 
+                        
+                        <div class="product-description">
+                            ${MenuItems[i].description}
+                        </div> 
+        
+                        <div class="product-footer"> 
+                            <div class="product-price"> 
+                                $${MenuItems[i].price.toFixed(2)} 
+                            </div> 
+        
+                            <button class="add-btn" onclick="addToCart(${MenuItems[i].id})"> 
+                                ADD TO CART 
+                            </button> 
+                        </div> 
+                    </div> 
+                `; 
+            // } 
+     }    
 };
 //     test.innerHTML = html; 
 function breakfast(){
@@ -538,7 +538,40 @@ function Dessert(){
         `};
     };
 };
+function ALL(){
+    // console.log("Breakfast function was called");
 
+    let test = document.getElementById("test"); 
+    let html = ""; 
+    test.innerHTML = ``
+    for (let i = 0; i < MenuItems.length; i++) { 
+        if (MenuItems[i].id){
+            html += ` 
+                <div class="product-card"> 
+                    <img src="${MenuItems[i].image}" alt="${MenuItems[i].name}" class="ImgSmall"> 
+                    
+                    <div class="product-name">${MenuItems[i].name}</div> 
+                    
+                    <p>${MenuItems[i].category}</p> 
+                    
+                    <div class="product-description">
+                        ${MenuItems[i].description}
+                    </div> 
+    
+                    <div class="product-footer"> 
+                        <div class="product-price"> 
+                            $${MenuItems[i].price.toFixed(2)} 
+                        </div> 
+    
+                        <button class="add-btn" onclick="addToCart(${MenuItems[i].id})"> 
+                            ADD TO CART 
+                        </button> 
+                    </div> 
+                </div> 
+            `; 
+        };
+    };
+};
 //id is grabbed by the btn shown above 
 function addToCart(id) { 
     console.log("calling id"); 
@@ -707,7 +740,7 @@ checkoutBtn.addEventListener("click", function () {
 
 
 //display all products when the page loads
-displayProducts();
+// displayProducts();
 displayCart();
 
 //Filter For menu Items
@@ -716,3 +749,10 @@ displayCart();
 // if (FilterBreakfast.checked){
 //     const BreakfastItems = MenuItems.filter(${category=})
 // }
+
+
+
+
+function themeSwitch(){
+    document.body.classList.toggle("dark-mode")
+}

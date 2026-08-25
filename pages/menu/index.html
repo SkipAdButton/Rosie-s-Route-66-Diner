@@ -8,27 +8,31 @@
     <link rel="stylesheet" href="../../shared/global.css">
 
     
-    <script src="../../shared/global.js" defer></script>
+    
 </head>
 <body  class="themeLight" id="BodyWody">
      <aside id="Filter">
             <div class="ContainerBody">
-                <a onclick="breakfast()" id="Filter-Breakfast"> Breakfast </a>
-                <a onclick="Lunch()" id="Filter-Lunch"> Lunch </a>
-                <a onclick="Dinner()" id="Filter-Dinner"> Dinner </a>
-                <a onclick="Drinks()" id="Filter-Drinks"> Drinks </a>
-                <a onclick="Dessert()" id="Filter-Dessert"> Desserts </a>
+                <a onclick="breakfast()" id="Filter-Breakfast" class="Ably"> Breakfast </a>
+                <a onclick="Lunch()" id="Filter-Lunch" class="Ably"> Lunch </a>
+                <a onclick="Dinner()" id="Filter-Dinner" class="Ably"> Dinner </a>
+                <a onclick="Drinks()" id="Filter-Drinks" class="Ably"> Drinks </a>
+                <a onclick="Dessert()" id="Filter-Dessert" class="Ably"> Desserts </a>
+                <a onclick="ALLOptions()" id="Filter-ALL" class="Ably"> all options </a>
             </div>
         </aside>
     <nav>
         <div class="buttonContainer">
+                <button class="themeSwitch" onclick="themeSwitch()">Theme switch</button>
                 <button class="headerButton">
                     <a class="turquoise hoverUnderline" href="/">Home</a>
                 </button>
+                
                 <button class="headerButton turquoise">|</button>
                 <button class="headerButton">
                     <a class="headerButton turquoise" href="/">Cart</a>
                 </button>
+                
                 <button id="shoppingBtn" >🛒</button>
                 <span class="cart-count" id="cartCount">0</span>
             </div>   
@@ -54,7 +58,7 @@
     </nav>
         
        
-    
+    <script src="menu.js"></script>
+    <script src="../../shared/global.js"></script>
 </body>
-<script src="menu.js"></script>
 </html>

@@ -41,7 +41,7 @@ function checkTheme() {
 
         applyStyleToAllClass("charBorder", "darkBackground")
         // ADD ALL DARKMODE STYLES HERE
-        
+
     } else {
         themeDependent.classList.add("themeLight");
         themeDependent.classList.remove("themeDark");
@@ -58,3 +58,16 @@ if (localStorage.getItem("theme") == null) {
     localStorage.setItem("theme", "Light");
 }
 checkTheme();
+
+
+function example(ifStatement, fn) {
+    if (ifStatement != null) {
+        fn()
+    }
+}
+
+setTimeout(()=> {}, 500)
+
+example(true, () => {console.log("Hello World")});
+
+if (blank != null) console.log("Hello Moon")
