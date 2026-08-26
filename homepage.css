@@ -1,16 +1,20 @@
 header {
     background-image: url("assets/image/headerBackgroundImg.png");
     /* padding-bottom: 135px; */
-    border-bottom: 30px #D20A2E solid;
+    border-bottom: 50px #D20A2E solid;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.theme{
+   
+    padding-top: 45px;
+}
 .dinerName {
     color: #FDFBD4;
-    font-family: "Elms Sans", sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 172px;
     font-weight: 400;
-    text-shadow: 7px 4px #940721;
+    text-shadow: 10px 4px #940721;
 }
 .dinerNameSub {
     color: #FDFBD4;
@@ -18,16 +22,32 @@ header {
     font-size: 52px;
 }
 .buttonContainer {
-    width: 100%;
+      width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 20px;
     gap: 10px;
 }
 .headerButton {
+    color:rgb(45, 234, 247);
+    text-shadow: 2px 0 10px white;
     background-color: transparent;
     border: 0px solid;
-    font-size: 18px;
+    font-size: 25px;
+}
+.headerButton a{
+    color:rgb(45, 234, 247);
+    text-shadow: 2px 0 10px white;
+    text-decoration: none;
+}
+.headerButton a:hover{
+    text-decoration: none;
+    color:white;
+
+}
+.theme:hover{
+    text-decoration: none;
+    color: white;
 }
 .aboutCard {
     background-color: white;
@@ -62,7 +82,7 @@ header {
 .rosieRiveter {
     height: auto;
     width: 18%;
-    outline: 6px #40E0D0 ridge;
+    outline: 6px #4ab8ad ridge;
     float: left;
     margin-right: 13px;
 }

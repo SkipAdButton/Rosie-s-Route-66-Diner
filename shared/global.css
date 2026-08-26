@@ -12,9 +12,6 @@
 .cream {
     background-color: #FDFBD4;
 }
-.turquoise {
-    color: #40E0D0;
-}
 .charcoal {
     color: #36454F;
 }
@@ -23,13 +20,6 @@
 }
 .silver {
     color: #C0C0C0;
-}
-.hoverUnderline {
-    text-decoration: none;
-}
-.hoverUnderline:hover {
-    text-decoration: underline;
-    cursor: pointer;
 }
 .flexColCentered {
     display: flex;
@@ -66,12 +56,10 @@ footer {
     text-shadow: 1px 1px #b6b497;
 }
 #themeSwitchButton {
-    color: rgb(50, 0, 0);
-    font-weight: 600;
     cursor: pointer;
     user-select: none;
     transform: translateY(-23px);
-    margin-left: 5px;
+    margin-left: 15px;
     
 }
 #themeSwitchButton:hover {

@@ -23,7 +23,7 @@ const MenuItems = [
         category: "breakfast", 
         price: 7.99, 
         image: "/assets/image/Pancake.jpg", 
-        description: "Classic pancakes are made by mixing flour, sugar, baking powder, and salt with milk, eggs, and melted butter into a batter that is cooked on a hot griddle" 
+        description: "mixed flour, sugar, baking powder, and salt with milk, eggs, and melted butter into a batter that is cooked on a hot griddle" 
     }, 
     { 
         id: 4, 
@@ -31,7 +31,7 @@ const MenuItems = [
         category: "breakfast", 
         price: 9.99, 
         image: "/assets/image/Waffles.jpg", 
-        description: "a popular baked cake made from a flour, egg, milk, and butter batter cooked between two hinged, patterned metal plates called a waffle iron." 
+        description: "a baked cake made from a flour, egg, milk, and butter batter cooked between two hinged, patterned metal plates called a waffle iron." 
     }, 
     { 
         id: 5, 
@@ -171,7 +171,7 @@ const MenuItems = [
         category: "Breakfast-Drink", 
         price: 3.99, 
         image: "/assets/image/AppleCider.jpg", 
-        description: "Apple cider is an unfiltered, unsweetened, non-alcoholic beverage made from freshly pressed apples. It has a cloudy, opaque appearance, a dark amber color, and a rich, tangy, full-bodied flavor with natural pulp sediments" 
+        description: "Apple cider is an unfiltered, unsweetened, non-alcoholic beverage made from freshly pressed apples. It has a cloudy, opaque appearance, a dark amber color, and a rich, tangy." 
     }, 
     { 
         id: 9, 
@@ -231,7 +231,7 @@ const MenuItems = [
         category: "Drink", 
         price: 10.99, 
         image: "/assets/image/GingerAle.jpg", 
-        description: "a sweet, fizzy, carbonated soft drink with a mild, crisp ginger flavor. It features bright bubbly carbonation, a light sugary sweetness, and subtle hints of citrus or caramel, offering a refreshing and smooth taste with very little of the sharp spice" 
+        description: "a sweet, fizzy, carbonated soft drink with a mild, crisp ginger flavor. It features bright bubbly carbonation, a light sugary sweetness, and subtle hints of citrus or caramel." 
     }, 
     { 
         id: 22, 
@@ -303,14 +303,6 @@ const MenuItems = [
         image: "/assets/image/unnamed.jpg", 
         description: "a sweet, frozen food made from milk, cream, sugar, and flavors." 
     }, 
-    { 
-        id: 35, 
-        name: "milkshake", 
-        category: "Dessert", 
-        price: 10.99, 
-        image: "/assets/image/MilkShake.jpg", 
-        description: "a cold, sweet drink made by blending milk, ice cream, and flavor syrups like chocolate, vanilla, or strawberry. It has a thick, creamy, and frothy texture" 
-    }, 
 ]; 
 
 
@@ -344,7 +336,6 @@ closeBtn.addEventListener("click", () => {
 
 
 function ALLOptions() { 
-    console.log("Displaying products:", MenuItems.length, "test"); 
     
     let test = document.getElementById("test"); 
     let html = ""; 
@@ -753,6 +744,6 @@ displayCart();
 
 
 
-function themeSwitch(){
-    document.body.classList.toggle("dark-mode")
-}
+// function themeSwitch(){
+//     document.body.classList.toggle("dark-mode")
+// }
