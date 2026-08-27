@@ -733,6 +733,7 @@ checkoutBtn.addEventListener("click", function () {
 //display all products when the page loads
 // displayProducts();
 displayCart();
+ALLOptions()
 
 //Filter For menu Items
 
