@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,58 +8,56 @@
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="../../shared/global.css">
 
-    
-    
+
+
 </head>
-<body  class="themeLight" id="BodyWody">
-     <aside id="Filter">
-            <div class="ContainerBody">
+
+<body class="themeLight" id="BodyWody">
+    <nav>
+        <div class="buttonContainer">
+            <button class="themeSwitch" onclick="checkTheme('switch')">Theme switch</button>
+            <a class="menuHeaderButton" href="/">Home</a>
+
+            <button id="shoppingBtn">🛒</button>
+            <span class="cart-count" id="cartCount">0</span>
+        </div>
+        <div class="cartModal" id="cartModal">
+
+            <div class="cartBox">
+                <div class="cart-header">
+                    <h2>Your Order</h2> <button id="closeBtn">×</button>
+                </div>
+
+                <div id="cartItems">
+                    <!-- this is where the items the user add will go -->
+                </div>
+                <hr>
+                <div class="cartSummary">
+                    <div class="cartSummary-row">Subtotal <span id="subtotal">$0.00</span></div>
+                    <div class="cartSummary-row">Tax* <span id="tax">$0.00</span></div>
+                    <div class="cartSummary-row">Total <span id="total">$0.00</span></div>
+                </div>
+
+                <button class="checkoutBtn" id="checkoutBtn">Checkout</button>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <aside id="Filter">
+            <!-- <div class="ContainerBody"> -->
                 <a onclick="breakfast()" id="Filter-Breakfast" class="Ably"> Breakfast </a>
                 <a onclick="Lunch()" id="Filter-Lunch" class="Ably"> Lunch </a>
                 <a onclick="Dinner()" id="Filter-Dinner" class="Ably"> Dinner </a>
                 <a onclick="Drinks()" id="Filter-Drinks" class="Ably"> Drinks </a>
                 <a onclick="Dessert()" id="Filter-Dessert" class="Ably"> Desserts </a>
-                <a onclick="ALLOptions()" id="Filter-ALL" class="Ably"> all options </a>
-            </div>
+                <a onclick="ALLOptions()" id="Filter-ALL" class="Ably"> All Options </a>
+            <!-- </div> -->
         </aside>
-    <nav>
-        <div class="buttonContainer">
-                <button class="themeSwitch" onclick="checkTheme('switch')">Theme switch</button>
-                <button class="headerButton">
-                    <a class="turquoise hoverUnderline" href="/">Home</a>
-                </button>
-                
-                <button class="headerButton turquoise">|</button>
-                <button class="headerButton">
-                    <a class="headerButton turquoise" href="/">Cart</a>
-                </button>
-                
-                <button id="shoppingBtn" >🛒</button>
-                <span class="cart-count" id="cartCount">0</span>
-            </div>   
-     
-     <div class="cartModal" id="cartModal">
-        
-        <div class="cartBox">
-            <div class="cart-header"><h2>Your Order</h2>  <button id="closeBtn">×</button></div>
-            <div id="cartItems">
-                <!-- this is where the items the user add will go -->
-            </div>
-            <hr>
-            <div class="cartSummary">
-                <div class="cartSummary-row" >Subtotal <span id="subtotal">$0.00</span></div>
-                <div class="cartSummary-row" >Tax* <span id="tax">$0.00</span ></div>
-                <div class="cartSummary-row" >Total <span id="total">$0.00</span></div>
-            </div>
+        <div id="test"></div>
+    </main>
 
-            <button class="checkoutBtn" id="checkoutBtn">Checkout</button>
-     </div>
-    </div>
-<div id="test"></div> 
-    </nav>
-        
-       
     <script src="menu.js"></script>
     <script src="../../shared/global.js"></script>
 </body>
+
 </html>
