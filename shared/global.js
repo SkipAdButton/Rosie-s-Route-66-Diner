@@ -55,16 +55,24 @@ function checkTheme(type) {
     if (themeDependentText != null) themeDependentText.classList.remove("themeLightText");
     if (themeDependentText != null) themeDependentText.classList.add("themeDarkText");
 
+    if (document.getElementById("BodyWody") != null) document.getElementById("BodyWody").classList.remove("themeLight");
+    if (document.getElementById("BodyWody") != null) document.getElementById("BodyWody").classList.add("themeDark");
+
     applyStyleToAllClass("charBorder", "darkBackground");
     // ADD ALL DARKMODE STYLES HERE
 
     document.body.classList.add("dark-mode");
+
+    applyStyleToAllClass("th")
   } else {
     if (themeDependent != null) themeDependent.classList.add("themeLight");
     if (themeDependent != null) themeDependent.classList.remove("themeDark");
 
     if (themeDependentText != null) themeDependentText.classList.add("themeLightText");
     if (themeDependentText != null) themeDependentText.classList.remove("themeDarkText");
+
+    if (document.getElementById("BodyWody") != null) document.getElementById("BodyWody").classList.add("themeLight");
+    if (document.getElementById("BodyWody") != null) document.getElementById("BodyWody").classList.remove("themeDark");
 
     removeStyleFromAllClass("charBorder", "darkBackground");
     // ADD ALL LIGHTMODE STYLES HERE
