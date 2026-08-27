@@ -6,7 +6,7 @@ const MenuItems = [
         name: "Classic Breakfast", 
         category: "breakfast", 
         price: 8.99, 
-        image: "/assets/image/ClassicBreakfast.jpg", 
+        image: "../../assets/image/ClassicBreakfast.jpg", 
         description: "The classic breakfast has Bacon Eggs (cooked to your preference) and hash browns and Toast." 
     }, 
     { 
@@ -14,7 +14,7 @@ const MenuItems = [
         name: "Omelette", 
         category: "breakfast", 
         price: 10.99, 
-        image: "/assets/image/Omelette.jpg", 
+        image: "../../assets/image/Omelette.jpg", 
         description: "whisked eggs pan-fried fast in oil or butter, tucked around salty bits of cheese, garden greens, or meat." 
     }, 
     { 
@@ -22,7 +22,7 @@ const MenuItems = [
         name: "Pancake", 
         category: "breakfast", 
         price: 7.99, 
-        image: "/assets/image/Pancake.jpg", 
+        image: "../../assets/image/Pancake.jpg", 
         description: "mixed flour, sugar, baking powder, and salt with milk, eggs, and melted butter into a batter that is cooked on a hot griddle" 
     }, 
     { 
@@ -30,7 +30,7 @@ const MenuItems = [
         name: "Waffles", 
         category: "breakfast", 
         price: 9.99, 
-        image: "/assets/image/Waffles.jpg", 
+        image: "../../assets/image/Waffles.jpg", 
         description: "a baked cake made from a flour, egg, milk, and butter batter cooked between two hinged, patterned metal plates called a waffle iron." 
     }, 
     { 
@@ -38,7 +38,7 @@ const MenuItems = [
         name: "Grilled Bacon Sandwich", 
         category: "breakfast", 
         price: 5.99, 
-        image: "/assets/image/BaconSandwich.jpg", 
+        image: "../../assets/image/BaconSandwich.jpg", 
         description: "a grilled Bacon egg and cheese sandwich on toast." 
     }, 
     { 
@@ -46,7 +46,7 @@ const MenuItems = [
         name: "biscuit and gravy", 
         category: "breakfast", 
         price: 6.99, 
-        image: "/assets/image/biscuit and gravy.jpg", 
+        image: "../../assets/image/biscuit and gravy.jpg", 
         description: "warm, soft, flaky baked dough biscuits smothered in a rich, savory, creamy white pepper sausage gravy" 
     }, 
  
@@ -57,7 +57,7 @@ const MenuItems = [
         name: "Cinnamon Rolls", 
         category: "dessert", 
         price: 10.99, 
-        image: "/assets/image/unnamed.jpg", 
+        image: "../../assets/image/unnamed.jpg", 
         description: "a sweet, yeast-raised pastry featuring a soft, pillowy dough rolled into a spiral with butter, brown sugar, and ground cinnamon" 
     }, 
     { 
@@ -65,7 +65,7 @@ const MenuItems = [
         name: "Apple pie slice", 
         category: "dessert", 
         price: 5.99, 
-        image: "/assets/image/ApplePie.jpg", 
+        image: "../../assets/image/ApplePie.jpg", 
         description: "a baked fruit dessert with sliced apples inside a pastry crust. It tastes sweet and warm from spices like cinnamon" 
     }, 
  
@@ -75,7 +75,7 @@ const MenuItems = [
         name: "Hamburger", 
         category: "Lunch", 
         price: 11.99, 
-        image: "/assets/image/Hamburger.jpg", 
+        image: "../../assets/image/Hamburger.jpg", 
         description: "A hamburger is a classic sandwich featuring a seasoned ground beef patty grilled and served inside a sliced bun with fresh toppings and condiments" 
     }, 
     { 
@@ -83,7 +83,7 @@ const MenuItems = [
         name: "Chicken and Dumplings", 
         category: "Lunch", 
         price: 12.99, 
-        image: "/assets/image/ChickenandDumpling.jpg", 
+        image: "../../assets/image/ChickenandDumpling.jpg", 
         description: "grilled ground beef patty topped with melted cheese, served inside a sliced bun with various toppings like lettuce, tomato, pickles, onions, and condiments" 
     }, 
     { 
@@ -91,7 +91,7 @@ const MenuItems = [
         name: "Grilled Cheese", 
         category: "Lunch", 
         price: 5.99, 
-        image: "/assets/image/GrilledCheese.jpg", 
+        image: "../../assets/image/GrilledCheese.jpg", 
         description: "bread buttered with cheese melted in between" 
     }, 
     { 
@@ -99,7 +99,7 @@ const MenuItems = [
         name: "Meat Loaf", 
         category: "Lunch", 
         price: 10.99, 
-        image: "/assets/image/Meatloaf.jpg", 
+        image: "../../assets/image/Meatloaf.jpg", 
         description: "a classic American comfort food consisting of ground meat mixed with binders like breadcrumbs and eggs, shaped into a loaf, and baked or smoked." 
     }, 
     { 
@@ -107,7 +107,7 @@ const MenuItems = [
         name: "Classic double Cheeseburger", 
         category: "Lunch", 
         price: 10.99, 
-        image: "/assets/image/CheeseBurger.jpg", 
+        image: "../../assets/image/CheeseBurger.jpg", 
         description: "grilled ground beef patty topped with melted cheese, served inside a sliced bun with various toppings like lettuce, tomato, pickles, onions, and condiments." 
     }, 
  
@@ -120,7 +120,7 @@ const MenuItems = [
         name: "seared Tomahawk Steak", 
         category: "Dinner", 
         price: 50.99, 
-        image: "/assets/image/Tomahawk.jpg", 
+        image: "../../assets/image/Tomahawk.jpg", 
         description: "Tomahawk steak is a thick, highly prized ribeye beef steak that features at least five inches of the rib bone left intact, resembling a single-handed axe" 
     }, 
     { 
@@ -128,7 +128,7 @@ const MenuItems = [
         name: "Pork Ribs", 
         category: "Dinner", 
         price: 10.99, 
-        image: "/assets/image/Ribs.jpg", 
+        image: "../../assets/image/Ribs.jpg", 
         description: "Barbecue ribs are tender, slow-cooked cuts of meat usually pork or beef coated in a savory spice rub, smoked or grilled, and finished with a sticky, sweet, and smoky barbecue sauce" 
     }, 
     { 
@@ -136,7 +136,7 @@ const MenuItems = [
         name: "Classic Cheeseburger", 
         category: "Dinner", 
         price: 10.99, 
-        image: "/assets/image/CheeseBurger.jpg", 
+        image: "../../assets/image/CheeseBurger.jpg", 
         description: "grilled ground beef patty topped with melted cheese, served inside a sliced bun with various toppings like lettuce, tomato, pickles, onions, and condiments" 
     }, 
     { 
@@ -144,7 +144,7 @@ const MenuItems = [
         name: "Hamburger", 
         category: "Dinner", 
         price: 10.99, 
-        image: "/assets/image/Hamburger.jpg", 
+        image: "../../assets/image/Hamburger.jpg", 
         description: "A hamburger is a classic sandwich featuring a seasoned ground beef patty grilled and served inside a sliced bun with fresh toppings and condiments" 
     }, 
     { 
@@ -152,7 +152,7 @@ const MenuItems = [
         name: "Roast Beef", 
         category: "Dinner", 
         price: 10.99, 
-        image: "/assets/image/RoastBeef.jpg", 
+        image: "../../assets/image/RoastBeef.jpg", 
         description: "mixing ground meat with breadcrumbs, onions, eggs, and seasonings, shaping it into a loaf, and baking it with a sweet tomato glaze." 
     }, 
  
@@ -162,7 +162,7 @@ const MenuItems = [
         name: "Hot chocolate", 
         category: "Drink", 
         price: 4.99, 
-        image: "/assets/image/HotChocolateV2.jpg", 
+        image: "../../assets/image/HotChocolateV2.jpg", 
         description: "a heated drink consisting of shaved or melted chocolate or cocoa powder, and heated milk or water" 
     }, 
     { 
@@ -170,7 +170,7 @@ const MenuItems = [
         name: "Apple cider", 
         category: "Breakfast-Drink", 
         price: 3.99, 
-        image: "/assets/image/AppleCider.jpg", 
+        image: "../../assets/image/AppleCider.jpg", 
         description: "Apple cider is an unfiltered, unsweetened, non-alcoholic beverage made from freshly pressed apples. It has a cloudy, opaque appearance, a dark amber color, and a rich, tangy." 
     }, 
     { 
@@ -178,7 +178,7 @@ const MenuItems = [
         name: "Coffee", 
         category: "Drink", 
         price: 10.99, 
-        image: "/assets/image/coffee.jpg", 
+        image: "../../assets/image/coffee.jpg", 
         description: "Coffee is a dark, bitter, and warm drink made from roasted seeds of a tropical plant" 
     }, 
     { 
@@ -186,7 +186,7 @@ const MenuItems = [
         name: "Tea", 
         category: "Drink", 
         price: 2.45, 
-        image: "/assets/image/tea.jpg", 
+        image: "../../assets/image/tea.jpg", 
         description: "Tea is an aromatic hot or cold drink made by soaking cured or fresh leaves of the Camellia sinensis plant in water." 
     }, 
     { 
@@ -194,7 +194,7 @@ const MenuItems = [
         name: "Milk", 
         category: "Drink", 
         price: 50, 
-        image: "/assets/image/milk.jpg", 
+        image: "../../assets/image/milk.jpg", 
         description: "Milk is an opaque white or bluish-white liquid food produced by the mammary glands of female mammals." 
     }, 
  
@@ -204,7 +204,7 @@ const MenuItems = [
         name: "Coca cola", 
         category: "Drink", 
         price: 1.99, 
-        image: "/assets/image/cocaCola.jpg", 
+        image: "../../assets/image/cocaCola.jpg", 
         description: "sweet, caramel flavor, bubbly fizz, and dark brown color" 
     }, 
  
@@ -222,7 +222,7 @@ const MenuItems = [
         name: "7UP", 
         category: "Drink", 
         price: 10.99, 
-        image: "/assets/image/7Up.jpg", 
+        image: "../../assets/image/7Up.jpg", 
         description: "a clear, non-caffeinated, lemon-lime flavored soft drink created in 1929" 
     }, 
     { 
@@ -230,7 +230,7 @@ const MenuItems = [
         name: "Canadian Ginger Ale", 
         category: "Drink", 
         price: 10.99, 
-        image: "/assets/image/GingerAle.jpg", 
+        image: "../../assets/image/GingerAle.jpg", 
         description: "a sweet, fizzy, carbonated soft drink with a mild, crisp ginger flavor. It features bright bubbly carbonation, a light sugary sweetness, and subtle hints of citrus or caramel." 
     }, 
     { 
@@ -238,7 +238,7 @@ const MenuItems = [
         name: "Pepsi", 
         category: "Drink", 
         price: 10.99, 
-        image: "/assets/image/Pepsi.jpg", 
+        image: "../../assets/image/Pepsi.jpg", 
         description: "a bold, sweet, and fizzy cola. It blends caramel and vanilla with a bright citrus kick from added citric acid" 
     }, 
  
@@ -248,7 +248,7 @@ const MenuItems = [
         name: "Kool Aid", 
         category: "Drink", 
         price: 50.99, 
-        image: "/assets/image/Koolaid.jpg", 
+        image: "../../assets/image/Koolaid.jpg", 
         description: "a popular American brand of flavored drink mix owned by Kraft Heinz. It is sold as a colorful powder in small paper packets or tubs. You make the sweet beverage by mixing the powder with water and sugar" 
     }, 
     { 
@@ -256,7 +256,7 @@ const MenuItems = [
         name: "Shirley Temple", 
         category: "Drink", 
         price: 10.99, 
-        image: "/assets/image/SherlyTemple.jpg", 
+        image: "../../assets/image/SherlyTemple.jpg", 
         description: "a sweet, fizzy, non-alcoholic mixed drink made with ginger ale (or lemon-lime soda), a splash of bright red grenadine syrup, and ice." 
     }, 
     { 
@@ -264,7 +264,7 @@ const MenuItems = [
         name: "Iced Tea", 
         category: "Drink", 
         price: 10.99, 
-        image: "/assets/image/IcedTea.jpg", 
+        image: "../../assets/image/IcedTea.jpg", 
         description: "a cold beverage made by brewing tea leaves with hot water and chilling the liquid by pouring it over ice." 
     }, 
  
@@ -274,7 +274,7 @@ const MenuItems = [
         name: "MilkShake", 
         category: "dessert", 
         price: 10.99, 
-        image: "/assets/image/MilkShake.jpg", 
+        image: "../../assets/image/MilkShake.jpg", 
         description: "a cold, sweet drink made by blending milk, ice cream, and flavor syrups like chocolate, vanilla, or strawberry. It has a thick, creamy, and frothy texture" 
     }, 
     { 
@@ -282,7 +282,7 @@ const MenuItems = [
         name: "Apple pie slice", 
         category: "dessert", 
         price: 5.99, 
-        image: "/assets/image/ApplePie.jpg", 
+        image: "../../assets/image/ApplePie.jpg", 
         description: "a baked fruit dessert with sliced apples inside a pastry crust. It tastes sweet and warm from spices like cinnamon" 
     }, 
  
@@ -292,7 +292,7 @@ const MenuItems = [
         name: "Rootbeer-float", 
         category: "Dessert", 
         price: 10.99, 
-        image: "/assets/image/Rootbeer-Float.jpg", 
+        image: "../../assets/image/Rootbeer-Float.jpg", 
         description: "a sweet, fizzy dessert drink made by pouring chilled root beer over scoops of vanilla ice cream" 
     }, 
     { 
@@ -300,7 +300,7 @@ const MenuItems = [
         name: "ice cream", 
         category: "Dessert", 
         price: 10.99, 
-        image: "/assets/image/unnamed.jpg", 
+        image: "../../assets/image/unnamed.jpg", 
         description: "a sweet, frozen food made from milk, cream, sugar, and flavors." 
     }, 
 ]; 
