@@ -29,7 +29,6 @@
 }
 .flexRow {
     display: flex;
-    
 }
 .charBorder {
     outline: 8px #36454F ridge;
