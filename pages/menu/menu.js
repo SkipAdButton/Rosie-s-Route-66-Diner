@@ -325,12 +325,12 @@ let taxRate = 0.056;
 let cart = []; 
  
 shoppingBtn.addEventListener("click", () => { 
-    console.log("Shopping button clicked, opening cart modal"); 
+    // console.log("Shopping button clicked, opening cart modal"); 
     cartModal.style.display = "flex"; 
 }); 
  
 closeBtn.addEventListener("click", () => { 
-    console.log("Close button clicked, closing cart modal"); 
+    // console.log("Close button clicked, closing cart modal"); 
     cartModal.style.display = "none"; 
 }); 
 
@@ -368,7 +368,7 @@ function ALLOptions() {
 };
 //     test.innerHTML = html; 
 function breakfast(){
-    // console.log("Breakfast function was called");
+    // // console.log("Breakfast function was called");
 
     let test = document.getElementById("test"); 
     let html = ""; 
@@ -530,7 +530,7 @@ function Dessert(){
     };
 };
 function ALL(){
-    // console.log("Breakfast function was called");
+    // // console.log("Breakfast function was called");
 
     let test = document.getElementById("test"); 
     let html = ""; 
@@ -565,7 +565,7 @@ function ALL(){
 };
 //id is grabbed by the btn shown above 
 function addToCart(id) { 
-    console.log("calling id"); 
+    // console.log("calling id"); 
  
     //using find is way easier then looping and creating my own find system 
     //.find will look throught first related item and convert it to the actual id 
@@ -576,7 +576,7 @@ function addToCart(id) {
 
     //make sure item exists before adding it
     if (!item) {
-        console.log("Item not found");
+        // console.log("Item not found");
         return;
     }
  
@@ -588,7 +588,7 @@ function addToCart(id) {
     if (foundItem) { 
         //if item is found it'll be added again or pushed through menu 
         foundItem.quantity++; 
-        console.log("increasing item"); 
+        // console.log("increasing item"); 
     } else { 
         cart.push({ 
             id: item.id, 
@@ -596,7 +596,7 @@ function addToCart(id) {
             price: item.price, 
             quantity: 1 
         }); 
-        console.log("New item added to cart"); 
+        // console.log("New item added to cart"); 
     } 
  
     displayCart(); 
@@ -604,7 +604,7 @@ function addToCart(id) {
 
 
 function increaseQty(id) { 
-    console.log("increase id called"); 
+    // console.log("increase id called"); 
     
     //since im using find seperate for each function i called them so js know what to increase/decrease 
     let item = cart.find(function (item) { 
@@ -613,7 +613,7 @@ function increaseQty(id) {
  
     if (item) { 
         item.quantity++; 
-        console.log("Quantity increase"); 
+        // console.log("Quantity increase"); 
     };
  
     displayCart(); 
@@ -621,7 +621,7 @@ function increaseQty(id) {
 
 
 function decreaseQty(id) { 
-    console.log("decreaseQty"); 
+    // console.log("decreaseQty"); 
  
     let item = cart.find(function (item) { 
         return item.id === id; 
@@ -629,11 +629,11 @@ function decreaseQty(id) {
  
     if (item) { 
         item.quantity--; 
-        console.log("Quantity decreased"); 
+        // console.log("Quantity decreased"); 
  
         //once item below 0 removeItem that when item actually filters 
         if (item.quantity <= 0) { 
-            console.log("Quantity at 0 remove"); 
+            // console.log("Quantity at 0 remove"); 
             removeItem(id); 
             return; 
         }; 
@@ -645,7 +645,7 @@ function decreaseQty(id) {
 
 //all id is called by my displayItem function's cards 
 function removeItem(id) { 
-    console.log("removeItem called");    
+    // console.log("removeItem called");    
  
     //creates new array containing orginal item and filters the one removed  
     cart = cart.filter(function (item) { 
@@ -653,7 +653,7 @@ function removeItem(id) {
         return item.id !== id; 
     }); 
  
-    console.log("Cart after removed"); 
+    // console.log("Cart after removed"); 
     displayCart(); 
 };
 
@@ -708,8 +708,8 @@ function updateCart() {
     let tax = subtotal * taxRate; 
     let total = subtotal + tax; 
  
-    console.log(
-        "Cart totals: " + count + " subtotal:" + subtotal.toFixed(2) + " tax:" +  tax.toFixed(2) + " total:" +total.toFixed(2)); 
+    // // console.log(
+    //     "Cart totals: " + count + " subtotal:" + subtotal.toFixed(2) + " tax:" +  tax.toFixed(2) + " total:" +total.toFixed(2)); 
     cartCountSpan.textContent = count; 
     subtotalSpan.textContent = "$" + subtotal.toFixed(2); 
     taxSpan.textContent = "$" + tax.toFixed(2); 
@@ -718,13 +718,13 @@ function updateCart() {
 
 
 checkoutBtn.addEventListener("click", function () { 
-    console.log("Checkout button clicked, cart:", cart); 
+    // console.log("Checkout button clicked, cart:", cart); 
  
     if (cart.length === 0) { 
-        console.log("Checkout blocked: cart is empty"); 
+        // console.log("Checkout blocked: cart is empty"); 
         alert("Your cart is empty!"); 
     } else { 
-        console.log("Proceeding to checkout with", cart.length, "item(s)"); 
+        // console.log("Proceeding to checkout with", cart.length, "item(s)"); 
         alert("Checkout coming soon!"); 
     } 
 }); 
